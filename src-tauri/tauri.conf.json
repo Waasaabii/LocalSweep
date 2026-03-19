@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "LocalSweep",
   "version": "0.1.0",
   "identifier": "com.waasaabii.localsweep",
   "build": {
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "LocalSweep",
+        "width": 1480,
+        "height": 940,
+        "minWidth": 1200,
+        "minHeight": 760
       }
     ],
     "security": {
